@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 
-isGamePossible = (gamesData) => {
+getGamePowers = (gamesData) => {
     let powers = [];
     let redCount = 0;
     let greenCount = 0;
